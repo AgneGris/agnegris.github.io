@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#121311">
+  <meta name="description"
+    content="Agnese Grison is a Research Associate at Imperial College London developing machine-learning methods and open-source tools for motor unit decomposition and neural interfaces.">
+  <meta name="author" content="Agnese Grison">
+  <link rel="canonical" href="https://agnegris.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Agnese Grison | Research Associate at Imperial College London">
+  <meta property="og:description"
+    content="Machine learning, motor unit decomposition, and open-source tools for neural interfaces.">
+  <meta property="og:url" content="https://agnegris.github.io/">
+  <meta property="og:image" content="https://github.com/AgneGris.png?size=640">
+  <title>Agnese Grison | Imperial College London</title>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Agnese Grison",
+      "url": "https://agnegris.github.io/",
+      "jobTitle": "Research Associate",
+      "affiliation": {"@type": "Organization", "name": "Imperial College London"},
+      "email": "mailto:agnese.grison@outlook.it",
+      "sameAs": [
+        "https://github.com/AgneGris",
+        "https://orcid.org/0009-0001-5981-3589",
+        "https://scholar.google.com/citations?user=nSuBBWAAAAAJ&hl=en",
+        "https://www.linkedin.com/in/agnese-grison-phd-04583714a/"
+      ]
+    }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell" id="top">
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="site-name" href="#top">Agnese Grison</a>
+        <div class="nav-links">
+          <a href="#research">Research</a>
+          <a href="#background">Background</a>
+          <a href="#contact">Contact</a>
+          <a href="#outside-the-lab">Outside the lab</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="profile" aria-labelledby="profile-name">
+        <img class="profile-photo" src="https://github.com/AgneGris.png?size=640"
+          alt="Agnese Grison's public GitHub profile image" width="160" height="160">
+        <div class="profile-text">
+          <h1 id="profile-name">Agnese Grison</h1>
+          <p class="profile-role">Research Associate<span class="profile-focus"> · Machine learning for neural
+              interfaces</span></p>
+          <p class="profile-affiliation"><strong><a
+                href="https://www.imperial.ac.uk/neuromechanics-rehabilitation-technology/research/active-projects/imperial-meta/">Imperial–Meta
+                Wearable Neural Interfaces Research Centre</a></strong> · <a href="https://www.imperial.ac.uk/">Imperial
+              College London</a></p>
+          <div class="profile-links" aria-label="Quick links">
+            <a href="mailto:agnese.grison@outlook.it">Email</a>
+            <a href="https://scholar.google.com/citations?user=nSuBBWAAAAAJ&amp;hl=en">Google Scholar</a>
+            <a href="https://github.com/AgneGris">GitHub</a>
+            <a href="https://orcid.org/0009-0001-5981-3589">ORCID</a>
+            <a href="https://www.linkedin.com/in/agnese-grison-phd-04583714a/">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p>I develop machine-learning and signal-processing methods to extract individual motor neuron activity from
+          high-density electromyography (EMG). I apply this work to neural interfaces and assistive technology,
+          including research after spinal cord injury.</p>
+        <p>Since 2025, I have been a Research Associate at the <a
+            href="https://www.imperial.ac.uk/neuromechanics-rehabilitation-technology/research/active-projects/imperial-meta/">Imperial–Meta
+            Wearable Neural Interfaces Research Centre</a> at <a href="https://www.imperial.ac.uk/">Imperial College
+            London</a>, working with <a href="https://profiles.imperial.ac.uk/d.farina">Prof. Dario Farina</a>. My
+          current work connects EMG signal processing with wearable neural interfaces and their potential applications
+          in neurorehabilitation.</p>
+        <p>During my PhD in AI and Machine Learning in the <a href="https://ai4health.io/">CDT in AI4Health</a> at the
+          <a href="https://www.imperial.ac.uk/computing/">Department of Computing</a>, <a
+            href="https://www.imperial.ac.uk/">Imperial College London</a>, I studied high-density electrode arrays and
+          methods for connecting with the human spinal cord. I also build open-source tools for EMG decomposition and
+          review.</p>
+      </section>
+
+      <section class="content-section" id="research" aria-labelledby="research-title">
+        <h2 id="research-title">Research &amp; selected work</h2>
+        <nav class="theme-nav" aria-label="Research sections">
+          <a href="#tools">Open-source tools</a>
+          <a href="#decomposition">Motor unit decomposition</a>
+          <a href="#clinical">Clinical interfacing</a>
+          <a href="#hardware">Hardware-informed interfaces</a>
+          <a href="#decoding">Neural decoding &amp; benchmarking</a>
+        </nav>
+        <section class="open-tools" id="tools" aria-labelledby="tools-title">
+          <h3 id="tools-title">Open-source tools</h3>
+          <div class="tool-grid">
+            <article class="tool">
+              <h4><a href="https://github.com/AgneGris/swarm-contrastive-decomposition">Swarm Contrastive
+                  Decomposition</a></h4>
+              <p>A Python/PyTorch package using particle-swarm-optimised source separation to decompose high-density
+                EMG.</p>
+              <figure class="project-figure project-figure--scd">
+                <img src="assets/projects/scd-abstract-figure.png"
+                  alt="SCD workflow diagram showing multichannel EMG signals separated into source components and motor unit discharge trains"
+                  width="3000" height="2100" loading="lazy">
+                <figcaption><a href="assets/projects/scd-abstract-figure.png"
+                    data-figure-viewer="scd-workflow-dialog">View workflow figure</a>.</figcaption>
+              </figure>
+            </article>
+            <article class="tool">
+              <h4><a href="https://github.com/AgneGris/scd-studio">SCD Studio</a></h4>
+              <p>A Qt/Python desktop application for GPU-accelerated decomposition and motor unit review and editing.
+              </p>
+              <div class="project-media">
+                <figure class="project-figure project-figure--thumbnail">
+                  <img src="assets/projects/scd-studio-thumbnail.png" alt="Dark SCD Studio promotional thumbnail"
+                    width="1080" height="1080" loading="lazy">
+                  <figcaption><a href="https://github.com/AgneGris/scd-studio">Repository</a>.</figcaption>
+                </figure>
+                <figure class="project-figure project-figure--demo">
+                  <picture>
+                    <source media="(prefers-reduced-motion: reduce)"
+                      srcset="assets/projects/scd-studio-visualisation.png">
+                    <img src="assets/projects/scd-studio-demo.gif"
+                      alt="SCD Studio demo showing the workflow from EMG configuration through motor unit visualisation"
+                      width="1120" height="828" loading="lazy">
+                  </picture>
+                  <figcaption><a href="assets/projects/scd-studio-demo.gif"
+                      data-figure-viewer="scd-studio-demo-dialog">View demo</a>.</figcaption>
+                </figure>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="research-theme" id="decomposition" aria-labelledby="pub-decomposition-title">
+          <h3 class="theme-heading" id="pub-decomposition-title">Motor unit decomposition</h3>
+          <p class="theme-summary">Developing methods to separate individual motor unit activity from complex EMG
+            recordings.</p>
+          <article class="publication">
+            <h4>Quasi-linear ICA for motor unit decomposition during dynamic contractions</h4>
+            <p class="authors">A. K. Clarke, D. Halatsis, <strong>A. Grison</strong>, I. Mendez Guerra, N. Ezaz-Nikpay,
+              P. Mamidanna, S. Ma, S. Muceli, D. Farina</p>
+            <p class="venue"><cite>NeurIPS 2026</cite> (accepted); arXiv:2406.19581</p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2406.19581">Preprint</a><a
+                href="https://arxiv.org/pdf/2406.19581">PDF</a></p>
+          </article>
+          <article class="publication">
+            <h4>Unlocking the full potential of high-density surface EMG: novel non-invasive high-yield motor unit
+              decomposition</h4>
+            <p class="authors"><strong>A. Grison</strong>, I. Mendez Guerra, A. K. Clarke, S. Muceli, J. Ibáñez, D.
+              Farina</p>
+            <p class="venue"><cite>The Journal of Physiology</cite>, 603(8), 2281–2300 (2025)</p>
+            <p class="paper-links"><a href="https://doi.org/10.1113/JP287913">DOI</a><a
+                href="https://arxiv.org/pdf/2410.14800">PDF</a><a
+                href="https://github.com/AgneGris/swarm-contrastive-decomposition">Code</a></p>
+          </article>
+          <article class="publication">
+            <h4>A particle swarm optimized independence estimator for blind source separation of neurophysiological time
+              series</h4>
+            <p class="authors"><strong>A. Grison</strong>, A. K. Clarke, S. Muceli, J. Ibáñez, A. Kundu, D. Farina</p>
+            <p class="venue"><cite>IEEE Transactions on Biomedical Engineering</cite>, 72(1), 227–237 (2025)</p>
+            <p class="paper-links"><a href="https://doi.org/10.1109/TBME.2024.3446806">DOI</a><a
+                href="https://research.chalmers.se/publication/545007/file/545007_Fulltext.pdf">PDF</a><a
+                href="https://github.com/AgneGris/swarm-contrastive-decomposition">Code</a></p>
+          </article>
+        </section>
+
+        <section class="research-theme" id="clinical" aria-labelledby="pub-clinical-title">
+          <h3 class="theme-heading" id="pub-clinical-title">Clinical interfacing</h3>
+          <p class="theme-summary">Using motor neuron activity to enable multidimensional control after spinal cord
+            injury, including a soft assistive glove.</p>
+          <article class="publication">
+            <h4>Intuitive, multidimensional motor unit control after paralysing spinal cord injury using non-invasive
+              recordings</h4>
+            <p class="authors">X. Yang<sup>*</sup>, V. Rawji<sup>*</sup>, C. Gibbs<sup>*</sup>, T. Jia, L. Gouveia Vila,
+              <strong>A. Grison</strong>, A. Nair, D. Farina, J. Á. Gallego</p>
+            <p class="venue"><cite>Nature Human Behaviour</cite> (accepted); medRxiv preprint, 2025</p>
+            <p class="paper-links"><a
+                href="https://www.medrxiv.org/content/10.64898/2025.12.09.25341760v4">Preprint</a><a
+                href="https://www.medrxiv.org/content/10.64898/2025.12.09.25341760v4.full.pdf">PDF</a></p>
+          </article>
+          <article class="publication">
+            <h4>Multidimensional motoneuron control using intramuscular microelectrode arrays in tetraplegic spinal cord
+              injury</h4>
+            <p class="authors"><strong>A. Grison<sup>*</sup></strong>, C. Gibbs<sup>*</sup>, V. Rawji<sup>*</sup>, L.
+              Gouveia Vila, I. Szczech, R. Varghese, P. Bryan, A. Kundu, X. Yang, J. Á. Gallego, D. Farina</p>
+            <p class="venue">medRxiv preprint, 2025</p>
+            <p class="paper-links"><a href="https://doi.org/10.1101/2025.07.17.25331429">Preprint</a></p>
+          </article>
+        </section>
+
+        <section class="research-theme" id="hardware" aria-labelledby="pub-hardware-title">
+          <h3 class="theme-heading" id="pub-hardware-title">Hardware-informed neural interfaces</h3>
+          <p class="theme-summary">Studying how electrode design and sampling affect the motor units that can be
+            recorded.</p>
+          <figure class="research-figure">
+            <img src="assets/research-illustration.jpg"
+              alt="Illustration of a hand and forearm with surface and implanted electrodes, sensor hardware, and recordings of muscle activity"
+              width="3780" height="2126" loading="lazy">
+            <figcaption>Illustration by <a href="https://www.sciencevisual.at/about/">Aron Cserveny / ScienceVisual</a>.
+            </figcaption>
+          </figure>
+          <article class="publication">
+            <h4>Motor unit sampling from intramuscular micro-electrode array recordings</h4>
+            <p class="authors"><strong>A. Grison</strong>, J. Ibáñez Pereda, D. Farina</p>
+            <p class="venue"><cite>IEEE Transactions on Neural Systems and Rehabilitation Engineering</cite>, 33,
+              620–629 (2025)</p>
+            <p class="paper-links"><a href="https://doi.org/10.1109/TNSRE.2025.3531054">DOI</a><a
+                href="https://diec.unizar.es/~laguna/personal/publicaciones/2025%20-%20Pub%20-%20Grison%20et%20al%20-%20IEEE%20TNSRE%20-%20Q1.pdf">PDF</a>
+            </p>
+          </article>
+          <article class="publication">
+            <h4>Design, fabrication and evaluation of a stretchable high-density electromyography array</h4>
+            <p class="authors">R. J. Varghese, M. Pizzi, A. Kundu, <strong>A. Grison</strong>, E. Burdet, D. Farina</p>
+            <p class="venue"><cite>Sensors</cite>, 24(6), 1810 (2024)</p>
+            <p class="paper-links"><a href="https://doi.org/10.3390/s24061810">DOI</a><a
+                href="https://www.mdpi.com/1424-8220/24/6/1810/pdf">PDF</a></p>
+          </article>
+        </section>
+
+        <section class="research-theme" id="decoding" aria-labelledby="pub-other-title">
+          <h3 class="theme-heading" id="pub-other-title">Neural decoding and benchmarking</h3>
+          <p class="theme-summary">Evaluating what motor neuron recordings can decode and how decomposition methods are
+            benchmarked.</p>
+          <article class="publication">
+            <h4>Intramuscular microelectrode arrays enable highly accurate neural decoding of finger tasks</h4>
+            <p class="authors"><strong>A. Grison</strong>, J. Ibáñez, S. Muceli, A. Kundu, F. A. M. M. Baracat, G.
+              Indiveri, E. Donati, D. Farina</p>
+            <p class="venue"><cite>Interface Focus</cite>, 16, 20250063 (2026)</p>
+            <p class="paper-links"><a href="https://doi.org/10.1098/rsfs.2025.0063">DOI</a><a
+                href="https://diec.unizar.es/~laguna/personal/publicaciones/2026%20-%20Pub%20-%20Grison%20et%20al%20-%20Int%20Focus.pdf">PDF</a>
+            </p>
+          </article>
+          <article class="publication">
+            <h4>MUniverse: A simulation and benchmarking suite for motor unit decomposition</h4>
+            <p class="authors">P. Mamidanna<sup>*</sup>, T. Klotz<sup>*</sup>, D. Halatsis<sup>*</sup>, <strong>A.
+                Grison</strong>, I. Mendez Guerra, S. Ma, A. H. Caillet, S. Avrillon, R. Rohlén, D. Farina</p>
+            <p class="venue">NeurIPS 2025 · Datasets &amp; Benchmarks Track</p>
+            <p class="paper-links"><a href="https://doi.org/10.52202/085713-5020">DOI</a><a
+                href="https://papers.nips.cc/paper_files/paper/2025/file/dcce28990bf662c6b916c52cd7e975da-Paper-Datasets_and_Benchmarks_Track.pdf">PDF</a><a
+                href="https://openreview.net/forum?id=Slrp3l7aYo">OpenReview</a><a
+                href="https://github.com/dfarinagroup/muniverse">Code</a><a
+                href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2F2UQHTP"
+                title="NeuroMotion-Train dataset on Harvard Dataverse">Data</a><a
+                href="https://neurips.cc/virtual/2025/poster/121638">Poster</a></p>
+          </article>
+        </section>
+
+        <p class="section-note"><sup>*</sup> Equal contribution. Selected papers; <a
+            href="https://scholar.google.com/citations?user=nSuBBWAAAAAJ&amp;hl=en">view all publications on Google
+            Scholar</a>.</p>
+      </section>
+
+      <section class="content-section" id="background" aria-labelledby="background-title">
+        <h2 id="background-title">Background</h2>
+        <div class="background-extra">
+          <h3>Experience</h3>
+          <dl class="timeline">
+            <div>
+              <dt>2025–Present</dt>
+              <dd>Research Associate, <strong><a
+                    href="https://www.imperial.ac.uk/neuromechanics-rehabilitation-technology/research/active-projects/imperial-meta/">Imperial–Meta
+                    Wearable Neural Interfaces Research Centre</a></strong>, <a
+                  href="https://www.imperial.ac.uk/">Imperial College London</a><br>
+                <span class="timeline-detail">Supervisor: <a href="https://profiles.imperial.ac.uk/d.farina">Prof. Dario
+                    Farina</a></span>
+              </dd>
+            </div>
+            <div>
+              <dt>2020–2025</dt>
+              <dd>Graduate Teaching Assistant, Imperial College London<br>
+                <span class="timeline-detail">Mathematics I &amp; II, Digital Biosignal Processing for Human Monitoring,
+                  and Brain–Machine Interfaces</span></dd>
+            </div>
+            <div>
+              <dt>Jan 2024</dt>
+              <dd>Visiting Student, <a href="https://www.ini.uzh.ch/">Institute of Neuroinformatics</a>, University of
+                Zurich and ETH Zurich</dd>
+            </div>
+            <div>
+              <dt>2021</dt>
+              <dd>Data Scientist, <a href="https://www.linkedin.com/company/18740300/">Mindstep</a><br>
+                <span class="timeline-detail">Developed a cognitive score and analysed app data to support screening for
+                  early signs of dementia.</span></dd>
+            </div>
+            <div>
+              <dt>2020</dt>
+              <dd>Research Assistant, Brain and Vestibular Group, Imperial College London<br>
+                <span class="timeline-detail">Studied movement, balance, and orientation using clinical data and
+                  neurophysiological recordings.</span></dd>
+            </div>
+            <div>
+              <dt>2018–2020</dt>
+              <dd>Undergraduate Teaching Assistant, Imperial College London<br>
+                <span class="timeline-detail">Image Processing; Mathematical Tools, Vibrations and Waves</span></dd>
+            </div>
+            <div>
+              <dt>2018–2020</dt>
+              <dd>Sales Assistant, <a href="https://www.imperialcollegeunion.org/">Imperial College Union</a></dd>
+            </div>
+            <div>
+              <dt>2018</dt>
+              <dd>Undergraduate Research Opportunities Programme intern, Imperial College London<br>
+                <span class="timeline-detail">Developed an app for a blood vancomycin biosensor with a multidisciplinary
+                  team for the SensUs competition.</span></dd>
+            </div>
+            <div>
+              <dt>2015</dt>
+              <dd>Distinguished Visiting Scholar, Houston Methodist Research Institute<br>
+                <span class="timeline-detail">Shadowed researchers.</span></dd>
+            </div>
+          </dl>
+        </div>
+        <div class="background-extra">
+          <h3>Education</h3>
+          <dl class="timeline">
+            <div>
+              <dt>2021–2025</dt>
+              <dd>PhD in AI and Machine Learning, <a href="https://ai4health.io/">CDT in AI4Health</a>, <a
+                  href="https://www.imperial.ac.uk/computing/">Department of Computing</a>, <a
+                  href="https://www.imperial.ac.uk/">Imperial College London</a><br>
+                <span class="timeline-detail">Supervisor: <a href="https://profiles.imperial.ac.uk/d.farina">Prof. Dario
+                    Farina</a><br>
+                  Thesis: <a
+                    href="https://spiral.imperial.ac.uk/entities/publication/38427678-306e-494b-8715-c4f1160a1b78">Implanted
+                    high-density electrode arrays to connect with the human spinal cord</a></span>
+              </dd>
+            </div>
+            <div>
+              <dt>2016–2020</dt>
+              <dd>MEng in Biomedical Engineering, <a href="https://www.imperial.ac.uk/">Imperial College London</a></dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="content-section contact-section" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>For questions or collaborations in motor unit decomposition, neural interfaces, and assistive technology,
+          email <a href="mailto:agnese.grison@outlook.it">agnese.grison@outlook.it</a>.</p>
+        <p class="contact-profiles"><a href="https://github.com/AgneGris">GitHub</a> · <a
+            href="https://scholar.google.com/citations?user=nSuBBWAAAAAJ&amp;hl=en">Google Scholar</a> · <a
+            href="https://orcid.org/0009-0001-5981-3589">ORCID</a> · <a
+            href="https://www.linkedin.com/in/agnese-grison-phd-04583714a/">LinkedIn</a></p>
+      </section>
+
+      <section class="content-section extracurricular-section" id="outside-the-lab"
+        aria-labelledby="outside-the-lab-title">
+        <h2 id="outside-the-lab-title">Outside the lab</h2>
+        <div class="outside-stories">
+          <article class="outside-story">
+            <div class="outside-story-copy">
+              <h3>Making things</h3>
+              <p>I grew up in Udine and joined the AGESCI Udine 1 Scout group when I was seven. One of my earliest
+                memories there is earning the <span lang="it">“Mani abili”</span> (“Handicraft”) badge. Making things
+                with my hands has always mattered to me; it was one of the main reasons I chose engineering. I still try
+                to make time for it, whether I'm knitting, painting, or making pasta from scratch (the Italian in me).
+                The tortellini here come in two versions: one crocheted, one made from dough.</p>
+            </div>
+            <div class="outside-story-media">
+              <figure>
+                <a href="assets/extracurricular/making-things-by-hand.jpg" data-figure-viewer="extracurricular-dialog"
+                  aria-label="View crocheted tortellini photo at full size">
+                  <img src="assets/extracurricular/making-things-by-hand.jpg"
+                    alt="Crocheted tortellini on a gold keychain" width="1500" height="2000" loading="lazy">
+                </a>
+                <figcaption>Crocheted tortellini</figcaption>
+              </figure>
+              <figure>
+                <a href="assets/extracurricular/handmade-tortellini.jpg" data-figure-viewer="extracurricular-dialog"
+                  aria-label="View fresh tortellini photo at full size">
+                  <img src="assets/extracurricular/handmade-tortellini.jpg"
+                    alt="Fresh handmade tortellini arranged on a wooden board" width="2016" height="1512"
+                    loading="lazy">
+                </a>
+                <figcaption>Fresh tortellini</figcaption>
+              </figure>
+            </div>
+          </article>
+          <article class="outside-story">
+            <div class="outside-story-copy">
+              <h3>Philosophy</h3>
+              <p>My dad was a philosophy teacher, so philosophy was part of my life long before I studied it in high
+                school. I've loved it ever since. During those years, I explored the work of Simone Weil, P. A.
+                Florenskij, Hannah Arendt, Emmanuel Levinas, and F. M. Dostoevskij in depth.</p>
+              <p>When I think about philosophy, I picture Aristotle and his students discussing ideas as they walked.
+                Some of my own best ideas come on a walk, and I hope to keep finding time to walk and think for as long
+                as I can.</p>
+            </div>
+            <div class="outside-story-media outside-story-media--single">
+              <figure>
+                <a href="assets/extracurricular/philosophy.jpg" data-figure-viewer="extracurricular-dialog"
+                  aria-label="View philosophy image at full size">
+                  <img src="assets/extracurricular/philosophy.jpg"
+                    alt="Italian quotation above a colourful painting of a village landscape" width="1070" height="1057"
+                    loading="lazy">
+                </a>
+              </figure>
+            </div>
+          </article>
+          <article class="outside-story">
+            <div class="outside-story-copy">
+              <h3>Outdoors</h3>
+              <p>I've always enjoyed being outdoors and staying active. When I was little, climbing meant reaching the
+                top of our bookcase and nearly giving my grandmother a heart attack; these days, I prefer hiking and
+                bouldering. I love being on the water too - it reminds me of Trieste, a city I love. I joined the
+                Imperial College Boat Club in my first year at Imperial. It was hard work, but I loved every minute of
+                it.</p>
+            </div>
+            <div class="outside-story-media">
+              <figure>
+                <a href="assets/extracurricular/climbing.jpg" data-figure-viewer="extracurricular-dialog"
+                  aria-label="View climbing photo at full size">
+                  <img src="assets/extracurricular/climbing.jpg" alt="Climber in a helmet ascending a rocky route"
+                    width="1536" height="2048" loading="lazy">
+                </a>
+                <figcaption>Climbing</figcaption>
+              </figure>
+              <figure>
+                <a href="assets/extracurricular/rowing.jpg" data-figure-viewer="extracurricular-dialog"
+                  aria-label="View rowing photo at full size">
+                  <img src="assets/extracurricular/rowing.jpg" alt="Rowing team in a boat beside a dock" width="1080"
+                    height="1274" loading="lazy">
+                </a>
+                <figcaption>Rowing</figcaption>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 Agnese Grison</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+  <dialog class="figure-viewer" id="scd-workflow-dialog" aria-label="Enlarged SCD workflow figure">
+    <div class="figure-viewer-toolbar">
+      <button class="figure-viewer-close" type="button" aria-label="Close figure" title="Close figure"
+        autofocus>×</button>
+    </div>
+    <img src="assets/projects/scd-abstract-figure.png"
+      alt="SCD workflow diagram showing multichannel EMG signals separated into source components and motor unit discharge trains"
+      width="3000" height="2100">
+  </dialog>
+  <dialog class="figure-viewer" id="scd-studio-demo-dialog" aria-label="Enlarged SCD Studio demo">
+    <div class="figure-viewer-toolbar">
+      <button class="figure-viewer-close" type="button" aria-label="Close demo" title="Close demo" autofocus>×</button>
+    </div>
+    <img data-demo-src="assets/projects/scd-studio-demo.gif"
+      alt="SCD Studio demo showing the workflow from EMG configuration through motor unit visualisation" width="1120"
+      height="828">
+  </dialog>
+  <dialog class="figure-viewer" id="extracurricular-dialog" aria-label="Enlarged Outside the lab photo">
+    <div class="figure-viewer-toolbar">
+      <button class="figure-viewer-close" type="button" aria-label="Close photo" title="Close photo"
+        autofocus>×</button>
+    </div>
+    <img data-gallery-image alt="">
+  </dialog>
+  <script src="assets/figure-viewer.js" defer></script>
+</body>
+
+</html>
